@@ -1,10 +1,12 @@
+import { Link } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text>Its' not Hello world for every one</Text>
+      <Link href={'/Dashboard'}>GO TO Dashboard</Link>
       <StatusBar style="auto" />
     </View>
   );
