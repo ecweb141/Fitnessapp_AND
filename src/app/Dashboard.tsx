@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-const Dashboard = () => {
+const opnm = () => {
   return (
     <View>
-      <Text>Dashboard</Text>
+      <Text>Fastr</Text>
     </View>
   );
 };
 
-export default Dashboard;
+export default opnm;
 
 const styles = StyleSheet.create({});
